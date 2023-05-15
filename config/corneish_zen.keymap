@@ -48,13 +48,13 @@
 // -----------------------------------------------------------------------------------------
 // |     |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |     |
 // |     |     |     |     |     |     |   |     |     |     |     |     |     |
-// | BTC | BT1 | BT2 |     |     |     |   |     |     |     |     |     |     |
+// |     | BTC | BT1 | BT2 | BT3 |     |   |     |     |     |     |     |     |
 //                   | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans     &kp FI_N1    &kp FI_N2    &kp FI_N3 &kp FI_N4 &kp FI_N5   &kp FI_N6 &kp FI_N7  &kp FI_N8 &kp FI_N9 &kp FI_N0 &trans
-   &trans     &trans       &trans       &trans    &trans    &trans      &trans    &trans     &trans    &trans    &trans    &trans
-   &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &trans    &trans    &trans      &trans    &trans     &trans    &trans    &trans    &trans
-                                        &kp LGUI  &trans    &kp SPACE   &kp RET   &kp BSPC   &mo 2
+   &trans &kp FI_N1  &kp FI_N2    &kp FI_N3    &kp FI_N4    &kp FI_N5   &kp FI_N6 &kp FI_N7  &kp FI_N8 &kp FI_N9 &kp FI_N0 &trans
+   &trans &trans     &trans       &trans       &trans       &trans      &trans    &trans     &trans    &trans    &trans    &trans
+   &trans &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans      &trans    &trans     &trans    &trans    &trans    &trans
+                                  &kp LGUI     &trans       &kp SPACE   &kp RET   &kp BSPC   &mo 2
                         >;
                 };
         };
