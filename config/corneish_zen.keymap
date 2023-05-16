@@ -31,15 +31,15 @@
                 lower_layer {
                         label = "SYMBOL";
 // -----------------------------------------------------------------------------------------
-// |   ^   | CTRL+A |  UP  | CTRL+E |    {    |    }    |   |  !  |  $  |  "  |  '  |  |  |   #  |
+// |   ^   | CTRL+A |  UP  | CTRL+E |    {    |    }    |   |  !  |  %  |  "  |  '  |  |  |   #  |
 // | BTCLR |  LEFT  | DOWN |  RIGHT |    (    |    )    |   |  ?  |  =  |  /  |  @  |  *  |   $  |
-// |  SHFT |    <   |  >   |    ~   |    [    |    ]    |   |  `  |  +  |  \  |  &  |  €  |   %  |
+// |  SHFT |    <   |  >   |    ~   |    [    |    ]    |   |  `  |  +  |  \  |  &  |     |   €  |
 //                         |   GUI  |         |   SPC   |   | ENT |     | RSE |
                         bindings = <
-   &kp FI_CARET &kp LC(A)        &kp UP              &kp LC(E)    &kp FI_LEFT_BRACE       &kp FI_RIGHT_BRACE         &kp FI_EXCLAMATION &kp FI_DOLLAR &kp FI_DOUBLE_QUOTES &kp FI_SINGLE_QUOTE &kp FI_PIPE     &kp FI_HASH
-   &kp LCTRL    &kp LEFT         &kp DOWN            &kp RIGHT    &kp FI_LEFT_PARENTHESIS &kp FI_RIGHT_PARENTHESIS   &kp FI_QUESTION    &kp FI_EQUAL  &kp FI_SLASH         &kp FI_AT_SIGN      &kp FI_ASTERISK &kp FI_DOLLAR
-   &kp LSHFT    &kp FI_LESS_THAN &kp FI_GREATER_THAN &kp FI_TILDE &kp FI_LEFT_BRACKET     &kp FI_RIGHT_BRACKET       &kp FI_GRAVE       &kp FI_PLUS   &kp FI_BACKSLASH     &kp FI_AMPERSAND    &kp FI_EURO     &kp FI_PERCENT
-                                                     &kp LGUI     &trans                  &kp SPACE                  &kp RET            &kp BSPC      &trans
+   &kp FI_CARET &kp LC(A)        &kp UP              &kp LC(E)    &kp FI_LEFT_BRACE       &kp FI_RIGHT_BRACE         &kp FI_EXCLAMATION &kp FI_PERCENT &kp FI_DOUBLE_QUOTES &kp FI_SINGLE_QUOTE &kp FI_PIPE     &kp FI_HASH
+   &kp LCTRL    &kp LEFT         &kp DOWN            &kp RIGHT    &kp FI_LEFT_PARENTHESIS &kp FI_RIGHT_PARENTHESIS   &kp FI_QUESTION    &kp FI_EQUAL   &kp FI_SLASH         &kp FI_AT_SIGN      &kp FI_ASTERISK &kp FI_DOLLAR
+   &kp LSHFT    &kp FI_LESS_THAN &kp FI_GREATER_THAN &kp FI_TILDE &kp FI_LEFT_BRACKET     &kp FI_RIGHT_BRACKET       &kp FI_GRAVE       &kp FI_PLUS    &kp FI_BACKSLASH     &kp FI_AMPERSAND    &kp FI_EURO     &kp FI_EURO
+                                                     &kp LGUI     &trans                  &kp SPACE                  &kp RET            &trans         &trans
                         >;
                 };
 
