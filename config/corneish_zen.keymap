@@ -19,12 +19,12 @@
 // -----------------------------------------------------------------------------------------
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  Å   |
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  Ö  |  Ä   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  -  | ALT  |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  -  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | BSPC | RSE |
                         bindings = <
    &kp TAB   &kp FI_Q &kp FI_W &kp FI_E &kp FI_R &kp FI_T    &kp FI_Y &kp FI_U  &kp FI_I     &kp FI_O      &kp FI_P        &kp FI_A_RING
    &kp LCTRL &kp FI_A &kp FI_S &kp FI_D &kp FI_F &kp FI_G    &kp FI_H &kp FI_J  &kp FI_K     &kp FI_L      &kp FI_O_UMLAUT &kp FI_A_UMLAUT
-   &kp LSHFT &kp FI_Z &kp FI_X &kp FI_C &kp FI_V &kp FI_B    &kp FI_N &kp FI_M  &kp FI_COMMA &kp FI_PERIOD &kp FI_MINUS    &kp LALT
+   &kp LSHFT &kp FI_Z &kp FI_X &kp FI_C &kp FI_V &kp FI_B    &kp FI_N &kp FI_M  &kp FI_COMMA &kp FI_PERIOD &kp FI_MINUS    &kp ESC
                                &kp LGUI &mo 1    &kp SPACE   &kp RET  &kp BSPC  &mo 2
                         >;
                 };
@@ -33,12 +33,12 @@
 // -----------------------------------------------------------------------------------------
 // |   ^   | CTRL+A |  UP  | CTRL+E |    {    |    }    |   |  !  |  %  |  "  |  '  |  |  |   #  |
 // | BTCLR |  LEFT  | DOWN |  RIGHT |    (    |    )    |   |  ?  |  =  |  /  |  @  |  *  |   $  |
-// |  SHFT |    <   |  >   |    ~   |    [    |    ]    |   |  `  |  +  |  \  |  &  |  €  |  ESC |
+// |  SHFT |    <   |  >   |    ~   |    [    |    ]    |   |  `  |  +  |  \  |  &  |  €  |  ALT |
 //                         |   GUI  |         |   SPC   |   | ENT |     | RSE |
                         bindings = <
    &kp FI_CARET &kp LC(A)        &kp UP              &kp LC(E)    &kp FI_LEFT_BRACE       &kp FI_RIGHT_BRACE         &kp FI_EXCLAMATION &kp FI_PERCENT &kp FI_DOUBLE_QUOTES &kp FI_SINGLE_QUOTE &kp FI_PIPE     &kp FI_HASH
    &kp LCTRL    &kp LEFT         &kp DOWN            &kp RIGHT    &kp FI_LEFT_PARENTHESIS &kp FI_RIGHT_PARENTHESIS   &kp FI_QUESTION    &kp FI_EQUAL   &kp FI_SLASH         &kp FI_AT_SIGN      &kp FI_ASTERISK &kp FI_DOLLAR
-   &kp LSHFT    &kp FI_LESS_THAN &kp FI_GREATER_THAN &kp FI_TILDE &kp FI_LEFT_BRACKET     &kp FI_RIGHT_BRACKET       &kp FI_GRAVE       &kp FI_PLUS    &kp FI_BACKSLASH     &kp FI_AMPERSAND    &kp FI_EURO     &kp ESC
+   &kp LSHFT    &kp FI_LESS_THAN &kp FI_GREATER_THAN &kp FI_TILDE &kp FI_LEFT_BRACKET     &kp FI_RIGHT_BRACKET       &kp FI_GRAVE       &kp FI_PLUS    &kp FI_BACKSLASH     &kp FI_AMPERSAND    &kp FI_EURO     &kp LALT
                                                      &kp LGUI     &trans                  &kp SPACE                  &kp RET            &trans         &trans
                         >;
                 };
